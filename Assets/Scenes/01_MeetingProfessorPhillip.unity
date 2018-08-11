@@ -168,11 +168,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4374196013813510, guid: fc784deb22d121f4db04cec286a58d7a, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 4374196013813510, guid: fc784deb22d121f4db04cec286a58d7a, type: 2}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 4374196013813510, guid: fc784deb22d121f4db04cec286a58d7a, type: 2}
       propertyPath: m_LocalRotation.x
@@ -180,7 +180,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4374196013813510, guid: fc784deb22d121f4db04cec286a58d7a, type: 2}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4374196013813510, guid: fc784deb22d121f4db04cec286a58d7a, type: 2}
       propertyPath: m_LocalRotation.z
@@ -188,7 +188,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4374196013813510, guid: fc784deb22d121f4db04cec286a58d7a, type: 2}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4374196013813510, guid: fc784deb22d121f4db04cec286a58d7a, type: 2}
       propertyPath: m_RootOrder
@@ -208,6 +208,7 @@ GameObject:
   - component: {fileID: 917337913}
   - component: {fileID: 917337912}
   - component: {fileID: 917337911}
+  - component: {fileID: 917337915}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -278,6 +279,23 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &917337915
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 917337910}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e95222252c007cc45905c7a29916e00a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 1098838627}
+--- !u!1 &1098838627 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1258114903277816, guid: fc784deb22d121f4db04cec286a58d7a,
+    type: 2}
+  m_PrefabInternal: {fileID: 530193840}
 --- !u!1 &1295827032
 GameObject:
   m_ObjectHideFlags: 0

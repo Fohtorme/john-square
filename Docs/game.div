@@ -1,0 +1,17 @@
+
+Power up's order
+1) Softener Falls Shoes (reduces falling impacts)
+2) Time reloader (the time reload but just inside a pré-defined place)
+
+History ideias:
+1) Phillip will create a machine time, if in the begin you start the game without
+wait he talk with you, he will say "My time machine should be worked!!!"
+
+TODO:
+1) Set player collision as Continuous:
+https://answers.unity.com/questions/34444/high-speed-object-collisionhow-to-avoid-pass-throu.html
+
+Game tasks:
+1) Make the first stage
+1.1) Adjust the camera
+1.2) Implement falling damage
