@@ -1,0 +1,15 @@
+# Compiled source #
+*.bin
+
+# Packages #
+
+# Logs and databases #
+*.log
+
+# OS generated files #
+
+# Temporary files #
+Temp/*
+.vs/*
+obj/*
+Library/metadata/*
